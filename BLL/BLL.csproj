@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Password.cs" />
+    <Compile Include="Controllers\FileDataAccess.cs" />
+    <Compile Include="DTO\Password.cs" />
+    <Compile Include="Interfaces\IDataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
