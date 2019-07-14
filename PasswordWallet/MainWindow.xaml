@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PasswordWallet"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="429.695" Width="755.682">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="74,10,0,0" TextWrapping="Wrap" Text="Менеджер паролей. Вроде как." VerticalAlignment="Top" Width="585" Height="47" FontFamily="Microsoft Sans Serif" FontSize="36" FontWeight="Bold"/>
+
     </Grid>
 </Window>
