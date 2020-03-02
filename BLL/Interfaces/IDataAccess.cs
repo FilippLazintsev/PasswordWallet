@@ -11,8 +11,9 @@ namespace BLL.Interfaces
         Password[] GetAllPasswords();
         Password[] GetPasswordBySite(string site);
         Password GetPasswordBySiteAndLogin(string site, string login);
+        Password GetPasswordById(string id);
 
-        bool SavePassword(string site, string login, string password);
-        bool UpdatePassword(string site, string login, string password);
+        bool SavePassword(string id, Password password);
+        bool UpdatePassword(string id, Password password);
     }
 }
